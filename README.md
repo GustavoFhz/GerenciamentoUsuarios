@@ -27,11 +27,21 @@ spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 4.mvn spring-boot:run
 
-  📌 Rotas da API
-Método	Rota	Descrição
-GET	/usuarios	Lista todos usuários
-GET	/usuarios/{id}	Obtém um usuário específico
-POST	/usuarios	Cria um novo usuário
-PUT	/usuarios/{id}	Atualiza um usuário existente
-DELETE	/usuarios/{id}	Remove um usuário
+## 📌 Rotas da API
+
+- **GET** `/usuarios`  
+  Lista todos os usuários.
+
+- **GET** `/usuarios/{id}`  
+  Obtém um usuário específico pelo ID.
+
+- **POST** `/usuarios`  
+  Cria um novo usuário.
+
+- **PUT** `/usuarios/{id}`  
+  Atualiza um usuário existente pelo ID.
+
+- **DELETE** `/usuarios/{id}`  
+  Remove um usuário pelo ID.
+
 
