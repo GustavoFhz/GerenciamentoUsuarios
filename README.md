@@ -20,11 +20,13 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) para gerenciamento de 
 1. Clone este repositório:
    ```sh
    git clone https://github.com/seu-usuario/seu-repositorio.git
-   
+   ``sh
 2. cd nome-do-projeto
+```sh
 3. spring.datasource.url=jdbc:mysql://localhost:3306/seu_banco
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
+``sh
 4.mvn spring-boot:run
 
 ## 📌 Rotas da API
